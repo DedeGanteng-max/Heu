@@ -1,0 +1,68 @@
+#Home {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(#25532E,#0f2f00);
+    text-align: center;
+    font-weight: bold;
+    border:none;
+}
+
+#Home hr {
+  margin-left: auto;
+  margin-right: auto;
+  border: none; 
+  height: 5px;   
+  background: #fefefe; 
+  border-radius: 10px;
+  width: 80%;
+}
+#Judul {
+  margin-top: 20px;
+  color: #fefefe;
+}
+#Judul h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#Judul h2 {
+  margin-bottom: 0;
+}
+
+
+#Athar {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+#Athar button{
+  cursor: pointer;
+  height: 520px;
+  border-radius: 6px;
+  border:none;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;    
+  background-repeat: no-repeat;
+}
+
+#JB {
+  background-image: linear-gradient(to top, rgba(0, 39, 4, 0.636) 0%, rgba(0, 0, 0, 0.203) 50%),url('https://i.pinimg.com/736x/f1/77/26/f17726cf45f508d6e50e8c48cea93172.jpg'); 
+}
+
+#SW {
+  background-image: linear-gradient(to top, rgba(0, 39, 4, 0.636) 0%, rgba(0, 0, 0, 0.203) 50%),url('https://i.pinimg.com/1200x/87/7e/3c/877e3c6802ec6b1fe15a60065134db55.jpg'); 
+}
+
+#LL {
+  background-image: linear-gradient(to top, rgba(0, 39, 4, 0.636) 0%, rgba(0, 0, 0, 0.203) 50%),url('https://i.pinimg.com/736x/20/5e/fc/205efcaf8407129858a95407867b19a8.jpg'); 
+}
